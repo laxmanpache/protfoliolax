@@ -1,0 +1,51 @@
+.skillpage {
+    width:100%;
+    /* background-image: linear-gradient(to bottom, #ecf5d4, #d8f2f7); */
+    padding: 20px;
+    
+}
+
+.Heading {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.abs {
+    color: orange;
+}
+
+.heading {
+    font-family: 'Libre Bodoni', serif;
+
+
+}
+
+.brand {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-item:hover {
+    border-bottom: 3px solid rgb(9, 255, 0);
+    box-shadow: 3px 3px 7px black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 980px) {
+    .nav-item:hover {
+        border-bottom: none;
+        box-shadow: 3px 3px 7px rgb(238, 45, 45);
+        width: 75%;
+        margin: auto;
+        padding-left: 10px;
+
+    }
+}

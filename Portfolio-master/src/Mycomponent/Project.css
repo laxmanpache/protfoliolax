@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.card1 {
+    box-shadow: 4px 4px 7px black;
+}
+.Heading{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    text-decoration: underline rgb(74, 157, 235);
+}
+
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .card1 {
+        box-shadow:none;
+    }
+}

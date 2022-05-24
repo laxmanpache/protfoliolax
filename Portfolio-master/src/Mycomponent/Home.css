@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.main_page {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+   
+    background-image: linear-gradient(to bottom, #74BDCB, #fdfdfd);
+    /* pt-5 mb-5 pb-3 */
+    
+  
+}
+
+
+.img1 {
+    width: 200px;
+    height: 240px;
+    border-radius: 8%;
+}
+
+.conatnet{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+
+
+marquee {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(247, 110, 19);
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif , italic;
+    font: 800;
+}
+
+/* h2 {
+    font-family: 'Nunito', sans-serif;
+    font: 800;
+}  */
+
+.name {
+    color:rgb(17, 17, 17);
+}
+
+.btn1{
+    display: flex;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .conatnet{
+        margin: 25px 25px 0 25px;
+    }
+}
